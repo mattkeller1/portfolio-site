@@ -1,3 +1,5 @@
+import { Helmet } from 'react-helmet-async';
+
 function About() {
   // Your 12 photos for the 3x4 grid
   const photos = [
@@ -17,6 +19,32 @@ function About() {
 
   return (
     <div className="about-page">
+      <Helmet>
+        {/* Primary SEO */}
+        <title>About Matt Keller | Philadelphia Digital Marketer</title>
+        <meta
+          name="description"
+          content="Philadelphia-based digital marketer specializing in technical SEO, content strategy, and analytics. Learn about my approach to driving organic growth."
+        />
+        <link rel="canonical" href="https://mattkellerdigital.com/about" />
+        {/* Open Graph */}
+        <meta property="og:type" content="profile" />
+        <meta property="og:title" content="About Matt Keller | Philadelphia Digital Marketer" />
+        <meta
+          property="og:description"
+          content="Philadelphia-based digital marketer specializing in technical SEO, content strategy, and analytics."
+        />
+        <meta property="og:url" content="https://mattkellerdigital.com/about" />
+        <meta property="og:image" content="https://mattkellerdigital.com/about/about-photo-cropped-1.webp" />
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About Matt Keller | Philadelphia Digital Marketer" />
+        <meta
+          name="twitter:description"
+          content="Technical SEO specialist based in Philadelphia. Driving organic growth through data-driven strategies."
+        />
+        <meta name="twitter:image" content="https://mattkellerdigital.com/about/about-photo-cropped-1.webp" />
+      </Helmet>
       <div className="about-container">
         <section className="about-hero">
           <div className="about-photo">

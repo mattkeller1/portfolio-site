@@ -16,11 +16,32 @@ function Home() {
   return (
     <div>
       <Helmet>
+        {/* Primary SEO */}
         <title>Matt Keller | Digital Marketing Portfolio</title>
         <meta
           name="description"
-          content="Results-driven digital marketer focused on technical SEO and content strategy. See case studies driving real gains in organic traffic and visibility for local businesses."
+          content="Digital marketer specializing in technical SEO and content strategy. Explore case studies driving measurable growth in organic traffic and visibility."
         />
+        <link rel="canonical" href="https://mattkellerdigital.com/" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Matt Keller | Digital Marketing Portfolio" />
+        <meta
+          property="og:description"
+          content="Digital marketer specializing in technical SEO and content strategy. Explore real case studies with measurable growth."
+        />
+        <meta property="og:url" content="https://mattkellerdigital.com/" />
+        <meta property="og:image" content="https://mattkellerdigital.com/og-image.jpg" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Matt Keller | Digital Marketing Portfolio" />
+        <meta
+          name="twitter:description"
+          content="Technical SEO, content strategy, and real growth results. Explore case studies."
+        />
+        <meta name="twitter:image" content="https://mattkellerdigital.com/og-image.jpg" />
       </Helmet>
       <section className="hero">
         <div className="hero-left">
