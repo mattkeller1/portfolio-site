@@ -16,23 +16,29 @@ function Footer() {
           <div className="footer-nav">
             <a href="/work">Work</a>
             <a href="/about">About</a>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a
+              href="https://drive.google.com/file/d/19YpXkCzRBC3qDN9toNovYTFXiFs2O2b6/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
             <a href="mailto:mdjkeller@gmail.com">Contact</a>
           </div>
 
           {/* Right: Social Links */}
           <div className="footer-social">
-            <a 
-              href="https://www.instagram.com/mkellphoto/" 
-              target="_blank" 
+            <a
+              href="https://www.instagram.com/mkellphoto/"
+              target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
             >
               <FaInstagram />
             </a>
-            <a 
-              href="https://www.linkedin.com/in/matthew-d-keller/" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/matthew-d-keller/"
+              target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
             >
