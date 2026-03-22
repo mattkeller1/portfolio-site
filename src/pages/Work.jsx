@@ -6,20 +6,28 @@ function Work() {
   return (
     <div className="work-page">
       <Helmet>
-        <title>{pageTitle}</title>
-        <meta name="description" content={pageDescription} />
-        <link rel="canonical" href={canonicalUrl} />
-
+        {/* Primary SEO */}
+        <title>SEO Case Studies | Matt Keller Digital Marketing</title>
+        <meta
+          name="description"
+          content="Explore detailed SEO case studies showing measurable results: traffic growth, ranking improvements, and revenue increases for home services and legal industries."
+        />
+        <link rel="canonical" href="https://mattkellerdigital.com/work" />
+        {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content={pageTitle} />
-        <meta property="og:description" content={pageDescription} />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:image" content={ogImage} />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={pageTitle} />
-        <meta name="twitter:description" content={pageDescription} />
-        <meta name="twitter:image" content={ogImage} />
+        <meta property="og:title" content="SEO Case Studies | Matt Keller Digital Marketing" />
+        <meta
+          property="og:description"
+          content="Detailed SEO case studies with measurable results across home services and legal industries."
+        />
+        <meta property="og:url" content="https://mattkellerdigital.com/work" />
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="SEO Case Studies | Matt Keller Digital Marketing" />
+        <meta
+          name="twitter:description"
+          content="Real SEO results: traffic growth, ranking improvements, and measurable revenue increases."
+        />
       </Helmet>
       <div className="work-header">
         <h1>My Work</h1>
