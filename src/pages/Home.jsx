@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import AnimatedText from '../components/AnimatedText';
 import { caseStudies } from '../data';
@@ -14,6 +15,13 @@ function Home() {
 
   return (
     <div>
+      <Helmet>
+        <title>Matt Keller | Digital Marketing Portfolio</title>
+        <meta
+          name="description"
+          content="Results-driven digital marketer focused on technical SEO and content strategy. See case studies driving real gains in organic traffic and visibility for local businesses."
+        />
+      </Helmet>
       <section className="hero">
         <div className="hero-left">
           <h1>
