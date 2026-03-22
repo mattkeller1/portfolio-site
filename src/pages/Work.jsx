@@ -7,9 +7,7 @@ function Work() {
       <div className="work-header">
         <h1>My Work</h1>
         <p className="work-intro">
-          I help businesses grow through strategic SEO. Here's a selection of projects showing 
-          technical improvements, content strategy, and measurable results across e-commerce, 
-          SaaS, and local service industries.
+          I help businesses grow through strategic SEO. Here’s a selection of projects focused on technical improvements, content strategy, and driving measurable increases in organic traffic.
         </p>
       </div>
 

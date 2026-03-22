@@ -9,7 +9,7 @@ function About() {
     "/about/jim-thorpe-1.webp",
     "/about/new-hope-foliage-1.webp",
     "/about/new-hope-dog-in-car-1.webp",
-    "/about/high-peak-wilderness-1.webp",
+    "/about/boston-graffiti-cropped-1.webp",
     "/about/sea-isle-bench-1.webp",
     "/about/vail-trip-1.webp",
     "/about/adirondacks-hike-1.webp",
