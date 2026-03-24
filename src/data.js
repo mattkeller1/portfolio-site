@@ -10,7 +10,7 @@ export const caseStudies = [
     image: '/hvac-techs.webp',
     metrics: {
       trafficGrowth: '+35%',
-      searchClicks: '+121%',
+      clicks: '+121%',
       keywordGrowth: '5×'
     },
 
@@ -49,7 +49,7 @@ export const caseStudies = [
 
     metrics: {
       trafficGrowth: '+104%',
-      searchClicks: '+131%',
+      clicks: '+131%',
       keywordGrowth: '5×'
     },
 
@@ -93,8 +93,8 @@ export const caseStudies = [
     metaDescription: 'SEO case study for a Philadelphia immigration law firm focused on improving rankings, organic visibility, and conversions through technical SEO and content strategy.',
     image: '/lawyer.webp',
     metrics: {
-      clickGrowth: '+86%',
-      impressionGrowth: '+289%',
+      clicks: '+86%',
+      impressions: '+289%',
       keywordGrowth: '+300%'
     },
 
