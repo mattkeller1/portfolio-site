@@ -41,7 +41,7 @@ function About() {
         <meta name="twitter:title" content="About Matt Keller | Philadelphia Digital Marketer" />
         <meta
           name="twitter:description"
-          content="Technical SEO specialist based in Philadelphia. Driving organic growth through data-driven strategies."
+          content="Digital marketing specialist based in Philadelphia. Driving organic growth through data-driven strategies."
         />
         <meta name="twitter:image" content="https://mattkellerdigital.com/about/about-photo-cropped-1.webp" />
       </Helmet>
@@ -70,8 +70,8 @@ function About() {
               <div className="about-col">
                 <h3>Day to day</h3>
                 <p>
-                  I spend most of my time diagnosing technical issues, building SEO-driven content strategies, and
-                  turning performance data into clear priorities. I like work that blends abstract thinking with
+                  I spend most of my time diagnosing technical SEO issues, building SEO-driven content strategies, and
+                  turning data into clear priorities. I enjoy work that blends abstract thinking with
                   practical execution.
                 </p>
               </div>
@@ -80,7 +80,7 @@ function About() {
                 <h3>Outside of work</h3>
                 <p>
                   Outside of marketing, I'm into photography, reading, and cooking. I also love traveling, my favorite
-                  destinations so far have been Colorado and Maine! I'm naturally curious and always looking to learn something new, and will happily show up to any trivia night.
+                  destinations so far have been Colorado and Maine! I'm always looking to learn something new, and will happily show up to any trivia night.
                 </p>
               </div>
             </div>
@@ -102,7 +102,7 @@ function About() {
             <div className="bring-card">
               <h3>Communication</h3>
               <p>
-                SEO touches marketing, dev, ops, and leadership — I focus on making priorities easy to
+                SEO touches paid search, dev, ops, and leadership. I focus on making priorities easy to
                 understand and easy to act on.
               </p>
             </div>
@@ -110,7 +110,7 @@ function About() {
             <div className="bring-card">
               <h3>Curiosity</h3>
               <p>
-                Search changes constantly. I like testing, learning fast, and improving systems as the landscape
+                Search changes constantly. I like testing, learning, and improving systems as the landscape
                 shifts.
               </p>
             </div>
@@ -118,8 +118,7 @@ function About() {
             <div className="bring-card">
               <h3>Collaboration</h3>
               <p>
-                I'm at my best when I'm part of a team — aligned expectations, clear handoffs, and good faith
-                problem-solving.
+                I'm a team player who values good communication, clear expectations, and collaborative problem-solving.
               </p>
             </div>
           </div>
@@ -129,7 +128,7 @@ function About() {
           <div className="about-photos-head">
             <h2 className="about-section-title">Photography & Travel</h2>
             <p className="about-subtitle">
-              A few frames I've collected recently.
+              A handful of photos from recent travels and exploring around home!
             </p>
           </div>
 
