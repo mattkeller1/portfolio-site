@@ -14,8 +14,8 @@ function Footer() {
 
           {/* Center: Page Links */}
           <div className="footer-nav">
-            <a href="/work">Work</a>
-            <a href="/about">About</a>
+            <a href="https://mattkellerdigital.com/work">Work</a>
+            <a href="https://mattkellerdigital.com/about">About</a>
             <a
               href="https://drive.google.com/file/d/1LOZ0PyIcR1TtOKyMuT8X86C42dzaMNLS/view?usp=sharing"
               target="_blank"
