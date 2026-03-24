@@ -7,8 +7,8 @@ import { FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 function Home() {
   const animatedPhrases = [
     "I've helped 50+ companies grow organically",
-    'I love data-driven decision making',
-    "I'm passionate about technical SEO",
+    'I focus on results that actually matter',
+    "I'm passionate about helping businesses grow",
   ];
 
   const featuredStudies = caseStudies.slice(0, 3);
