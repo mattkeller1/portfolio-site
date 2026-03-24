@@ -27,16 +27,6 @@ function CaseStudy() {
             property="og:image"
             content="https://mattkellerdigital.com/og-image.jpg"
           />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Case Study Not Found | Matt Keller" />
-          <meta
-            name="twitter:description"
-            content="The case study you are looking for could not be found."
-          />
-          <meta
-            name="twitter:image"
-            content="https://mattkellerdigital.com/og-image.jpg"
-          />
         </Helmet>
 
         <h1>Case study not found</h1>
@@ -68,11 +58,6 @@ function CaseStudy() {
         <meta property="og:description" content={pageDescription} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:image" content={ogImage} />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={pageTitle} />
-        <meta name="twitter:description" content={pageDescription} />
-        <meta name="twitter:image" content={ogImage} />
       </Helmet>
 
       <Link to="/work" className="back-link">← Back to all work</Link>
@@ -132,4 +117,3 @@ function CaseStudy() {
 }
 
 export default CaseStudy;
-

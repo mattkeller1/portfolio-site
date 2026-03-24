@@ -17,7 +17,7 @@ function Footer() {
             <a href="/work">Work</a>
             <a href="/about">About</a>
             <a
-              href="https://drive.google.com/file/d/19YpXkCzRBC3qDN9toNovYTFXiFs2O2b6/view?usp=sharing"
+              href="https://drive.google.com/file/d/1LOZ0PyIcR1TtOKyMuT8X86C42dzaMNLS/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -43,7 +43,6 @@ function About() {
           name="twitter:description"
           content="Digital marketing specialist based in Philadelphia. Driving organic growth through data-driven strategies."
         />
-        <meta name="twitter:image" content="https://mattkellerdigital.com/about/about-photo-cropped-1.webp" />
       </Helmet>
       <div className="about-container">
         <section className="about-hero">
@@ -152,7 +151,7 @@ function About() {
         <section className="about-connect">
           <h2 className="about-section-title">Let's connect</h2>
           <p className="about-connect-text">
-            If you want to chat SEO, analytics, or anything creative, feel free to reach out via{" "}
+            Interested in connecting or discussing all things digital marketing? Reach out via{" "}
             <a href="mailto:mdjkeller@gmail.com">email</a>{" "}
             or connect with me on{" "}
             <a href="https://www.linkedin.com/in/matthew-d-keller/" target="_blank" rel="noopener noreferrer">

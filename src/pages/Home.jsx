@@ -41,7 +41,6 @@ function Home() {
           name="twitter:description"
           content="Technical SEO, content strategy, and real growth results. Explore case studies."
         />
-        <meta name="twitter:image" content="https://mattkellerdigital.com/og-image.jpg" />
       </Helmet>
       <section className="hero">
         <div className="hero-left">
