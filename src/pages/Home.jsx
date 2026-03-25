@@ -32,7 +32,6 @@ function Home() {
           content="Digital marketer specializing in technical SEO and content strategy. Explore real case studies with measurable growth."
         />
         <meta property="og:url" content="https://mattkellerdigital.com/" />
-        <meta property="og:image" content="https://mattkellerdigital.com/og-image.jpg" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />

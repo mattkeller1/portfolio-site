@@ -21,7 +21,7 @@ function Navigation() {
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1LOZ0PyIcR1TtOKyMuT8X86C42dzaMNLS/view?usp=sharing"
+            href="https://drive.google.com/file/d/1NMKvmAHh81GS-4gY27P-v5UTqyUxivjQ/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

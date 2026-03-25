@@ -35,7 +35,6 @@ function About() {
           content="Philadelphia-based digital marketer specializing in technical SEO, content strategy, and analytics."
         />
         <meta property="og:url" content="https://mattkellerdigital.com/about" />
-        <meta property="og:image" content="https://mattkellerdigital.com/about/about-photo-cropped-1.webp" />
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Matt Keller | Philadelphia Digital Marketer" />
