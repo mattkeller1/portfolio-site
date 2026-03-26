@@ -1,4 +1,5 @@
 import { FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -14,9 +15,10 @@ function Footer() {
 
           {/* Center: Page Links */}
           <div className="footer-nav">
-            <a href="https://mattkellerdigital.com/work">Work</a>
-            <a href="https://mattkellerdigital.com/about">About</a>
-            <a href="https://mattkellerdigital.com//privacy-policy">Privacy Policy</a>
+            <Link to="/work">Work</Link>
+            <Link to="/about">About</Link>
+            <Link to="/privacy-policy">Privacy Policy</Link>
+
             <a
               href="https://drive.google.com/file/d/1NMKvmAHh81GS-4gY27P-v5UTqyUxivjQ/view?usp=sharing"
               target="_blank"
@@ -24,6 +26,7 @@ function Footer() {
             >
               Resume
             </a>
+
             <a href="mailto:contact@mattkellerdigital.com">Contact</a>
           </div>
 
