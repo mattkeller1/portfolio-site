@@ -23,7 +23,7 @@ function Footer() {
             >
               Resume
             </a>
-            <a href="mailto:mdjkeller@gmail.com">Contact</a>
+            <a href="mailto:contact@mattkellerdigital.com">Contact</a>
           </div>
 
           {/* Right: Social Links */}

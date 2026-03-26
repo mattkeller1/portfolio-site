@@ -151,7 +151,7 @@ function About() {
           <h2 className="about-section-title">Let's connect</h2>
           <p className="about-connect-text">
             Interested in connecting or discussing all things digital marketing? Reach out via{" "}
-            <a href="mailto:mdjkeller@gmail.com">email</a>{" "}
+            <a href="mailto:contact@mattkellerdigital.com">email</a>{" "}
             or connect with me on{" "}
             <a href="https://www.linkedin.com/in/matthew-d-keller/" target="_blank" rel="noopener noreferrer">
               LinkedIn
