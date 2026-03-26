@@ -7,7 +7,8 @@ import Home from './pages/Home';
 import Work from './pages/Work';
 import CaseStudy from './pages/CaseStudy';
 import About from './pages/About';
-import PrivacyPolicy from './pages/PrivacyPolicy'; //
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import CookiePolicy from './pages/CookiePolicy';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/work/:id" element={<CaseStudy />} />
         <Route path="/about" element={<About />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/cookie-policy" element={<CookiePolicy />} />
       </Routes>
 
       <Footer />

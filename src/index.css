@@ -770,6 +770,50 @@ nav {
   }
 }
 
+/* Cookie Table */
+.cookie-table-wrapper {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.cookie-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.cookie-table th,
+.cookie-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cookie-table th {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.cookie-table tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.cookie-table td {
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .cookie-table {
+    font-size: 0.85rem;
+  }
+  
+  .cookie-table th,
+  .cookie-table td {
+    padding: 0.5rem;
+  }
+}
+
 /* =========================
    Footer
    ========================= */

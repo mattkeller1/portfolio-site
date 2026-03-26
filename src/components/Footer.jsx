@@ -18,6 +18,7 @@ function Footer() {
             <Link to="/work">Work</Link>
             <Link to="/about">About</Link>
             <Link to="/privacy-policy">Privacy Policy</Link>
+            <Link to="/cookie-policy">Cookie Policy</Link>
 
             <a
               href="https://drive.google.com/file/d/1NMKvmAHh81GS-4gY27P-v5UTqyUxivjQ/view?usp=sharing"
