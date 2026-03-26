@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+# Block all images in the about folder
+Disallow: /about/*.webp
+
 Sitemap: https://mattkellerdigital.com/sitemap.xml

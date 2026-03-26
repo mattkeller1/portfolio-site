@@ -27,6 +27,7 @@ function About() {
           content="Philadelphia-based digital marketer specializing in technical SEO, content strategy, and analytics. Learn about my approach to driving organic growth."
         />
         <link rel="canonical" href="https://mattkellerdigital.com/about" />
+        <meta name="robots" content="noimageindex" />
         {/* Open Graph */}
         <meta property="og:type" content="profile" />
         <meta property="og:title" content="About Matt Keller | Philadelphia Digital Marketer" />
