@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Work from './pages/Work';
 import CaseStudy from './pages/CaseStudy';
 import About from './pages/About';
+import PrivacyPolicy from './pages/PrivacyPolicy'; //
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/work" element={<Work />} />
         <Route path="/work/:id" element={<CaseStudy />} />
         <Route path="/about" element={<About />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
 
       <Footer />

@@ -16,6 +16,7 @@ function Footer() {
           <div className="footer-nav">
             <a href="https://mattkellerdigital.com/work">Work</a>
             <a href="https://mattkellerdigital.com/about">About</a>
+            <a href="https://mattkellerdigital.com//privacy-policy">Privacy Policy</a>
             <a
               href="https://drive.google.com/file/d/1NMKvmAHh81GS-4gY27P-v5UTqyUxivjQ/view?usp=sharing"
               target="_blank"
